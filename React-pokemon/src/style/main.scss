@@ -1,0 +1,27 @@
+$color-primary: #ff7a7a;
+$font-primary: 'Helvetica';
+
+* {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+}
+
+
+body {
+  background: $color-primary;
+}
+
+.hello-navbar {
+  text-align: center;
+}
+
+button {
+  font-style: $font-primary;
+  width: 30%;
+}
+
+div {
+  text-align: center;
+}
