@@ -1,5 +1,4 @@
 import React from 'react'
-import faker from 'faker'
 import ReactDom from 'react-dom'
 import superagent from 'superagent'
 
@@ -36,8 +35,6 @@ class PokemonForm extends React.Component {
                   value={this.state.pokeName}
                   onChange={this.handlePokeNameChange}
                 />
-                <p> name: </p>
-                <p> {this.state.pokeName} </p>
             </form>
         )
     }
@@ -49,7 +46,7 @@ class App extends React.Component {
         this.state = {
             pokemonLookup: [],
             pokemonSelected: null,
-            pokemonNameError: 'name error',
+            pokemonNameError: null,
         }
 
         this.pokemonSelect = this.pokemonSelect.bind(this)
@@ -124,17 +121,26 @@ class App extends React.Component {
               <div> 
                 <h2> pokemon {this.state.pokemonNameError} does not exist </h2>
                 <p> make another request! </p>
-              </div> : 
+              </div> :
+              <div>
+                { this.state.pokemonSelected ? 
               <div> 
                 <h2> selected: {this.state.pokemonSelected.name} </h2>
-                <p> Yeah it worked!! </p>
-              </div> }
+                <p> {this.state.pokemonSelected.name}'s weight: {this.state.pokemonSelected.weight} </p>
+                <p> {this.state.pokemonSelected.name}'s id: {this.state.pokemonSelected.id} </p>
+              </div> :
+              <div>
+                  <p> make a request! </p>
+              </div>
+              }
+              </div>
+            }
               
-            </div>
+            </div>  
         )
-    }
+    } 
 }
-
+    
 const container = document.createElement('div')
 document.body.appendChild(container)
 ReactDom.render(<App />, container)
