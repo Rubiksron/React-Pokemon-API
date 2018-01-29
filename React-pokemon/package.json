@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Rubiksron/React-Pokemon-API"
   },
-  "homepage": "https://github.com/Rubiksron/React-Pokemon-API/React-Pokemon-API",
+  "homepage": "https://github.com/Rubiksron/React-Pokemon-API",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
