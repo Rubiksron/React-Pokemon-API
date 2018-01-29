@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rubiksron/React-Pokemon-API"
+    "url": "https://github.com/Rubiksron/React-Pokemon-API"
   },
   "keywords": [
     "pokemon"
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Rubiksron/React-Pokemon-API"
   },
-  "homepage": "https://github.com/Rubiksron/React-Pokemon-API#readme",
+  "homepage": "https://github.com/Rubiksron/React-Pokemon-API",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
