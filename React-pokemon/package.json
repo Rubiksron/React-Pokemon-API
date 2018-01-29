@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rubiksron/React-Cowsay.git"
+    "url": "git+https://github.com/Rubiksron/React-Pokemon-API"
   },
   "keywords": [
-    "cowsay"
+    "pokemon"
   ],
   "author": "ron dunphy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rubiksron/React-Cowsay/issues"
+    "url": "https://github.com/Rubiksron/React-Pokemon-API"
   },
-  "homepage": "https://github.com/Rubiksron/React-Cowsay#readme",
+  "homepage": "https://github.com/Rubiksron/React-Pokemon-API#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
